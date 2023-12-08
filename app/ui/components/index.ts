@@ -10,3 +10,4 @@ export { default as Goal } from "./Goal";
 export { default as AppBar } from "./AppBar";
 export { default as Progress } from "./Progress";
 export { default as FlashCard } from "./FlashCard";
+export { default as Logo } from "./Logo";

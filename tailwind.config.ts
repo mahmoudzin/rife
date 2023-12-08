@@ -8,21 +8,19 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    theme: {
-      extend: {
-        colors: {
-          primary: "var(--color-primary)",
-          secondary: "var(--color-secondary)",
-        },
-      },
-      fontSize: {
-        sm: "var(--font-size-small)",
-        base: ["16px", "24px"],
-        lg: "var(--font-size-lg)",
-        xl: "var(--font-size-xl)",
+    extend: {
+      colors: {
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
       },
     },
+    fontSize: {
+      sm: "var(--font-size-small)",
+      base: ["16px", "24px"],
+      lg: "var(--font-size-lg)",
+      xl: "var(--font-size-xl)",
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
 export default config;

@@ -1,3 +1,4 @@
+"use client";
 import { IoMdCheckmark } from "react-icons/io";
 import { useThemeProvider } from "../../theme";
 

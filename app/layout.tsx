@@ -3,7 +3,6 @@ import { inter } from "@/app/ui/fonts";
 import ThemeProvider from "@/app/ui/theme";
 import "./globals.scss";
 import LayoutProvider from "@/app/ui/Layout";
-import { AppBar } from "@/app/ui/components";
 
 export const metadata: Metadata = {
   title: "RIFE",

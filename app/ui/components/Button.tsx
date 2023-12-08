@@ -14,11 +14,7 @@ export default function Button({
 }) {
   return (
     <button
-      className={`${
-        className
-          ? className
-          : `bg-primary rounded-md transition ease-in-out delay-150 hover:bg-secondary px-4 py-1`
-      }`}
+      className={`bg-primary rounded-md transition ease-in-out delay-150 hover:bg-secondary px-4 py-1 ${className}`}
       onClick={onClick}
       style={style}
     >

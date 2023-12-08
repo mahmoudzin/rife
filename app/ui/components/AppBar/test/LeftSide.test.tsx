@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import LeftSide, { Logo } from "../LeftSide";
+import LeftSide from "../LeftSide";
+import Logo from "@/app/ui/components/Logo";
 
 describe("LeftSide", () => {
   test("renders LeftSide component correctly", () => {
